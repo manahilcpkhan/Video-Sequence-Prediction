@@ -1,0 +1,44 @@
+/* General Page Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333333;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title Styling */
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Description Styling */
+.description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+/* Metrics Title Styling */
+.metrics-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #e6f7ff;
+}
+
+/* File Uploader Styling */
+div[data-testid="stFileUploader"] > label {
+    font-size: 1.2rem;
+    color: #444444;
+    font-weight: bold;
+}
